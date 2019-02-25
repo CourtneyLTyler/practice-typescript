@@ -41,6 +41,7 @@ class Shape3D extends Shape {
     volume: number;
  
     constructor ( public name: string, width: number, height: number, length: number ) {
+        // this passes down properties from the Class
         super( name, width, height );
         this.volume = length * this.area;
     };
@@ -48,8 +49,9 @@ class Shape3D extends Shape {
     shoutout() {
         return "I'm " + this.name +  " with a volume of " + this.volume + " cm cube.";
     }
- 
+    
     superShout() {
+        // the word 'super' here uses the prior shoutout function declared in class Shape
         return super.shoutout();
     }
 }
