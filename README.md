@@ -1,5 +1,5 @@
 # Learning TypeScript
-I began learning about TypeScript today due to a suggestion from a colleague, as well as out of sheer curiousity.  
+I began learning about TypeScript today due to a suggestion from a colleague, as well as out of sheer curiousity. TypeScript is a programming language that is a typed superset of JavaScript.   
 
 
 ## What problems does it solve/why use it?
